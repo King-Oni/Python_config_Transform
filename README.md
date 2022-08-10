@@ -10,6 +10,7 @@ changes json, yaml or even ini
 to each other
 
 # What it does
+
 yaml to ini
 
 yaml to json
@@ -17,12 +18,13 @@ yaml to json
 and vice versa
 
 # yaml to json
+```python
 dh = dict_Handler(file.yaml)
 
 dh.to_json
 
 now you don't need to look for more
-
+```
 # later updates might include
 -being able to specify the output location
 
